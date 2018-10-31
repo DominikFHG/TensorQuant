@@ -1,6 +1,5 @@
 <p align="center">
-
-    ![TensorQuant](docs/TQ_Logo.svg?raw=true "TensorQuant")
+<img src="docs/TQ_Logo.svg">
 </p>
 
 # TensorQuant
@@ -26,7 +25,7 @@ No changes to the local TensorFlow version are required and it is highly compati
 
 Given a model of a DNN written in TensorFlow, the user needs to specify a dictionary which maps layer IDs to quantization methods. After some minor modifications to the original model description, TensorQuant can quantize the model using any user-defined methods or one provided with the toolbox.
 
-![Workflow](docs/TensorQuant_Overview.svg?raw=true "Workflow")
+![Workflow](docs/TensorQuant_Overview.svg)
 
 TensorQuant quantizes operators and variables by looping in additional nodes in the computational graph. Those insertions can be made to a very deep level, which effectively allows to emulate custom numerical formats, for example fixed-point formats.
 
@@ -36,13 +35,13 @@ Quantization can be applied not only during inference, but also during training.
 
 ## Links
 
-* https://github.com/cc-hpc-itwm/TensorQuant  
+* [github.com/cc-hpc-itwm/TensorQuant](https://github.com/cc-hpc-itwm/TensorQuant)  
 
-* https://www.itwm.fraunhofer.de/en/departments/hpc/data-analysis-and-machine-learning/tensorquant-simulation-deep-learning-models.html
+* [www.itwm.fraunhofer.de/en/departments/hpc/data-analysis-and-machine-learning/tensorquant-simulation-deep-learning-models.html](https://www.itwm.fraunhofer.de/en/departments/hpc/data-analysis-and-machine-learning/tensorquant-simulation-deep-learning-models.html)  
 
 ## Papers
-* https://arxiv.org/abs/1710.05758  
-* https://arxiv.org/abs/1808.08784
+* [arxiv.org/abs/1710.05758](https://arxiv.org/abs/1710.05758)  
+* [arxiv.org/abs/1808.08784](https://arxiv.org/abs/1808.08784)  
 
 ## Authors
 Dominik Loroch (Fraunhofer ITWM)
